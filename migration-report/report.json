@@ -1,0 +1,1114 @@
+{
+  "outputId": "638e5b34-6fa9-47e4-a73a-c9fa5d839a0c",
+  "jobId": "d70aa952-700e-466f-884f-d566832f6d20",
+  "generatedAt": "2026-11-17T12:00:59.625Z",
+  "pairId": "selenium-java+testng->playwright-ts",
+  "target": {
+    "id": "playwright-ts"
+  },
+  "transformerVersion": "0.1.0+2ac06bb0a87c+sp4",
+  "units": [
+    {
+      "chunkId": "src/test/java/com/demo/base/BaseTest.java#BaseTest",
+      "sourcePath": "src/test/java/com/demo/base/BaseTest.java",
+      "unitName": "BaseTest",
+      "targetPath": "src/base/BaseTest.ts",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "rule",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "grounding": {
+        "references": 0,
+        "rag": 0,
+        "bySource": {}
+      },
+      "writeThrough": "skipped"
+    },
+    {
+      "chunkId": "src/test/java/com/demo/pages/BasePage.java#BasePage",
+      "sourcePath": "src/test/java/com/demo/pages/BasePage.java",
+      "unitName": "BasePage",
+      "targetPath": "src/pages/BasePage.ts",
+      "outcome": "needs_review",
+      "status": "transformed",
+      "source": "model",
+      "method": "rule+llm",
+      "fromCache": false,
+      "attempts": 2,
+      "validationPassed": true,
+      "problems": [],
+      "confidence": 0.39,
+      "grounding": {
+        "references": 7,
+        "rag": 3,
+        "bySource": {
+          "cache": 2,
+          "knowledge-base:framework": 1,
+          "corpus:selenium-java/locators-and-actions.md": 2,
+          "knowledge-base:configuration": 2
+        }
+      },
+      "writeThrough": "skipped"
+    },
+    {
+      "chunkId": "src/test/java/com/demo/pages/CartPage.java#CartPage",
+      "sourcePath": "src/test/java/com/demo/pages/CartPage.java",
+      "unitName": "CartPage",
+      "targetPath": "src/pages/CartPage.ts",
+      "outcome": "needs_review",
+      "status": "transformed",
+      "source": "model",
+      "method": "rule+llm",
+      "fromCache": false,
+      "attempts": 2,
+      "validationPassed": true,
+      "problems": [
+        "src/pages/cart-page/CartPageQuestions.ts:7 TS2345 Argument of type 'string' is not assignable to parameter of type 'AbilityType<object>'.",
+        "src/pages/cart-page/CartPageQuestions.ts:7 TS2339 Property 'getPage' does not exist on type 'object'.",
+        "src/pages/cart-page/CartPageQuestions.ts:8 TS2339 Property 'count' does not exist on type 'Target'.",
+        "src/pages/cart-page/CartPageQuestions.ts:12 TS2345 Argument of type 'string' is not assignable to parameter of type 'AbilityType<object>'.",
+        "src/pages/cart-page/CartPageQuestions.ts:12 TS2339 Property 'getPage' does not exist on type 'object'.",
+        "src/pages/cart-page/CartPageQuestions.ts:13 TS2339 Property 'all' does not exist on type 'Target'.",
+        "src/pages/cart-page/CartPageTasks.ts:7 TS2345 Argument of type 'string' is not assignable to parameter of type 'AbilityType<object>'.",
+        "src/pages/cart-page/CartPageTasks.ts:7 TS2339 Property 'getPage' does not exist on type 'object'.",
+        "src/pages/cart-page/CartPageTasks.ts:11 TS2345 Argument of type 'string' is not assignable to parameter of type 'AbilityType<object>'.",
+        "src/pages/cart-page/CartPageTasks.ts:11 TS2339 Property 'getPage' does not exist on type 'object'.",
+        "src/pages/CartPage.ts:2 TS2307 Cannot find this module: no migrated file has that path (its unit may have failed or been skipped). (a file this unit imports was not delivered)"
+      ],
+      "confidence": 0.4,
+      "grounding": {
+        "references": 7,
+        "rag": 2,
+        "bySource": {
+          "cache": 1,
+          "knowledge-base:framework": 2,
+          "corpus:selenium-java/locators-and-actions.md": 2,
+          "corpus:playwright-ts/locators.md": 2
+        }
+      },
+      "writeThrough": "skipped"
+    },
+    {
+      "chunkId": "src/test/java/com/demo/pages/CheckoutPage.java#CheckoutPage",
+      "sourcePath": "src/test/java/com/demo/pages/CheckoutPage.java",
+      "unitName": "CheckoutPage",
+      "outcome": "failed",
+      "status": "failed",
+      "source": "model",
+      "method": "rule+llm",
+      "fromCache": false,
+      "attempts": 2,
+      "validationPassed": false,
+      "problems": [
+        "Your answer did not follow the reply format: put the complete code between <code> and </code>."
+      ],
+      "reason": "unparseable",
+      "grounding": {
+        "references": 6,
+        "rag": 2,
+        "bySource": {
+          "cache": 1,
+          "knowledge-base:framework": 2,
+          "corpus:selenium-java/locators-and-actions.md": 1,
+          "corpus:playwright-ts/locators.md": 2
+        }
+      },
+      "writeThrough": "skipped"
+    },
+    {
+      "chunkId": "src/test/java/com/demo/pages/InventoryPage.java#InventoryPage",
+      "sourcePath": "src/test/java/com/demo/pages/InventoryPage.java",
+      "unitName": "InventoryPage",
+      "targetPath": "src/pages/InventoryPage.ts",
+      "outcome": "needs_review",
+      "status": "transformed",
+      "source": "model",
+      "method": "rule+llm",
+      "fromCache": false,
+      "attempts": 2,
+      "validationPassed": true,
+      "problems": [
+        "src/pages/inventory-page/InventoryPageTargets.ts:4 TS2322 Type '{ pageTitle: (page: Page) => any; cartLink: (page: Page) => any; cartBadge: (page: Page) => any; productNames: (page: Page) => any; productPrices: (page: Page) => any; sortDropdown: (page: Page) => any; ... 9 more ...; productNameByText: (productName: string) => (page: Page) => any; }' is not "
+      ],
+      "confidence": 0.42,
+      "grounding": {
+        "references": 4,
+        "rag": 2,
+        "bySource": {
+          "cache": 1,
+          "knowledge-base:framework": 2,
+          "corpus:selenium-java/locators-and-actions.md": 1
+        }
+      },
+      "writeThrough": "skipped"
+    },
+    {
+      "chunkId": "src/test/java/com/demo/pages/LoginPage.java#LoginPage",
+      "sourcePath": "src/test/java/com/demo/pages/LoginPage.java",
+      "unitName": "LoginPage",
+      "targetPath": "src/pages/LoginPage.ts",
+      "outcome": "needs_review",
+      "status": "transformed",
+      "source": "model",
+      "method": "rule+llm",
+      "fromCache": false,
+      "attempts": 1,
+      "validationPassed": true,
+      "problems": [],
+      "confidence": 0.41,
+      "grounding": {
+        "references": 6,
+        "rag": 2,
+        "bySource": {
+          "cache": 1,
+          "knowledge-base:framework": 2,
+          "corpus:selenium-java/locators-and-actions.md": 1,
+          "corpus:playwright-ts/locators.md": 2
+        }
+      },
+      "writeThrough": "skipped"
+    },
+    {
+      "chunkId": "src/test/java/com/demo/tests/CheckoutTest.java#CheckoutTest",
+      "sourcePath": "src/test/java/com/demo/tests/CheckoutTest.java",
+      "unitName": "CheckoutTest",
+      "targetPath": "tests/CheckoutTest.spec.ts",
+      "outcome": "needs_review",
+      "status": "transformed",
+      "source": "model",
+      "method": "rule+llm",
+      "fromCache": false,
+      "attempts": 1,
+      "validationPassed": true,
+      "problems": [
+        "tests/CheckoutTest.spec.ts:3 TS2307 Cannot find this module: no migrated file has that path (its unit may have failed or been skipped). (a file this unit imports was not delivered)"
+      ],
+      "confidence": 0.86,
+      "grounding": {
+        "references": 5,
+        "rag": 3,
+        "bySource": {
+          "cache": 1,
+          "knowledge-base:framework": 2,
+          "knowledge-base:engineering": 1,
+          "corpus:testng/lifecycle-and-assertions.md": 1
+        }
+      },
+      "writeThrough": "skipped"
+    },
+    {
+      "chunkId": "src/test/java/com/demo/tests/LoginTest.java#LoginTest",
+      "sourcePath": "src/test/java/com/demo/tests/LoginTest.java",
+      "unitName": "LoginTest",
+      "targetPath": "tests/LoginTest.spec.ts",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "rule+llm",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "confidence": 0.74,
+      "grounding": {
+        "references": 6,
+        "rag": 4,
+        "bySource": {
+          "knowledge-base:framework": 3,
+          "knowledge-base:engineering": 1,
+          "corpus": 2
+        }
+      },
+      "writeThrough": "skipped"
+    },
+    {
+      "chunkId": "src/test/java/com/demo/tests/ProductTest.java#ProductTest",
+      "sourcePath": "src/test/java/com/demo/tests/ProductTest.java",
+      "unitName": "ProductTest",
+      "targetPath": "tests/ProductTest.spec.ts",
+      "outcome": "needs_review",
+      "status": "transformed",
+      "source": "model",
+      "method": "rule+llm",
+      "fromCache": false,
+      "attempts": 2,
+      "validationPassed": true,
+      "problems": [
+        "tests/ProductTest.spec.ts:22 TS2551 Property 'includesAll' does not exist on type 'string[]'. Did you mean 'includes'?",
+        "tests/ProductTest.spec.ts:22 TS2551 Property 'includesAll' does not exist on type 'string[]'. Did you mean 'includes'?"
+      ],
+      "confidence": 0.74,
+      "grounding": {
+        "references": 5,
+        "rag": 3,
+        "bySource": {
+          "cache": 1,
+          "knowledge-base:framework": 2,
+          "knowledge-base:engineering": 1,
+          "corpus:testng/lifecycle-and-assertions.md": 1
+        }
+      },
+      "writeThrough": "skipped"
+    },
+    {
+      "chunkId": "src/test/java/com/demo/utils/ConfigReader.java#ConfigReader",
+      "sourcePath": "src/test/java/com/demo/utils/ConfigReader.java",
+      "unitName": "ConfigReader",
+      "targetPath": "src/utils/ConfigReader.ts",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "llm",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "confidence": 0.98,
+      "grounding": {
+        "references": 2,
+        "rag": 1,
+        "bySource": {
+          "knowledge-base:framework": 1,
+          "corpus": 1
+        }
+      },
+      "writeThrough": "skipped"
+    },
+    {
+      "chunkId": "src/test/java/com/demo/utils/DBUtil.java#DBUtil",
+      "sourcePath": "src/test/java/com/demo/utils/DBUtil.java",
+      "unitName": "DBUtil",
+      "targetPath": "src/utils/DBUtil.ts",
+      "outcome": "needs_review",
+      "status": "transformed",
+      "source": "model",
+      "method": "rule+llm",
+      "fromCache": false,
+      "attempts": 2,
+      "validationPassed": true,
+      "problems": [],
+      "confidence": 0.56,
+      "grounding": {
+        "references": 3,
+        "rag": 1,
+        "bySource": {
+          "cache": 2,
+          "knowledge-base:framework": 1
+        }
+      },
+      "writeThrough": "skipped"
+    },
+    {
+      "chunkId": "src/test/java/com/demo/utils/WaitUtils.java#WaitUtils",
+      "sourcePath": "src/test/java/com/demo/utils/WaitUtils.java",
+      "unitName": "WaitUtils",
+      "targetPath": "src/utils/WaitUtils.ts",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "rule+llm",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "confidence": 0.86,
+      "grounding": {
+        "references": 4,
+        "rag": 3,
+        "bySource": {
+          "knowledge-base:framework": 3,
+          "corpus": 1
+        }
+      },
+      "writeThrough": "skipped"
+    }
+  ],
+  "assets": [
+    {
+      "path": "pom.xml",
+      "action": "copy",
+      "result": "replaced_by_scaffold"
+    },
+    {
+      "path": "README.md",
+      "action": "copy",
+      "result": "copied"
+    },
+    {
+      "path": "src/test/resources/config.properties",
+      "action": "migrate",
+      "result": "migration_not_automated"
+    },
+    {
+      "path": "src/test/resources/db/data.sql",
+      "action": "migrate",
+      "result": "relocated",
+      "targetPath": "db/data.sql"
+    },
+    {
+      "path": "src/test/resources/db/schema.sql",
+      "action": "migrate",
+      "result": "relocated",
+      "targetPath": "db/schema.sql"
+    },
+    {
+      "path": "testng.xml",
+      "action": "migrate",
+      "result": "migration_not_automated"
+    }
+  ],
+  "report": {
+    "summary": {
+      "units": 12,
+      "byOutcome": {
+        "migrated": 4,
+        "needs_review": 7,
+        "failed": 1
+      },
+      "fromCache": 4,
+      "files": 23,
+      "completeFiles": 23,
+      "assetsCopied": 1,
+      "assetsRelocated": 2,
+      "byMethod": {
+        "rule": 1,
+        "rule+llm": 10,
+        "llm": 1
+      },
+      "reviewQueue": 7,
+      "approved": 0
+    },
+    "validation": {
+      "rounds": 2,
+      "retried": 6,
+      "fixedByRetry": 3,
+      "written": 0,
+      "writeFailed": 0
+    },
+    "cost": {
+      "run": {
+        "modelCalls": 14,
+        "usage": {
+          "inputTokens": 51725,
+          "outputTokens": 16644,
+          "cacheReadTokens": 17152,
+          "cacheWriteTokens": 0
+        },
+        "costUsd": 0.674725
+      },
+      "budget": {
+        "allowed": true,
+        "breakerOpen": false,
+        "limitUsd": 25,
+        "spentUsd": 0.674725,
+        "reservedUsd": 0,
+        "limitTokens": 2000000,
+        "spentTokens": 68369,
+        "reservedTokens": 0,
+        "budgetWarning": false
+      },
+      "cache": {
+        "lookups": 24,
+        "hits": 4,
+        "patternHits": 0,
+        "misses": 20,
+        "writes": 4,
+        "rejectedWrites": 0,
+        "errors": 0,
+        "estTokensSaved": 1374,
+        "unavailable": false,
+        "backend": "memory"
+      },
+      "byLayer": [
+        {
+          "layer": 1,
+          "name": "Client input",
+          "modelCalls": 0,
+          "costUsd": 0,
+          "note": "no model calls"
+        },
+        {
+          "layer": 2,
+          "name": "Ingestion & static analysis",
+          "modelCalls": 0,
+          "costUsd": 0,
+          "note": "no model calls (parsers)"
+        },
+        {
+          "layer": 3,
+          "name": "Cache-first lookup",
+          "modelCalls": 0,
+          "costUsd": 0,
+          "note": "4 unit(s) answered from the cache, no model call"
+        },
+        {
+          "layer": 4,
+          "name": "Retrieval & context",
+          "modelCalls": 0,
+          "costUsd": 0,
+          "note": "no model calls (retrieval and budgeting)"
+        },
+        {
+          "layer": 5,
+          "name": "Guardrails before the model",
+          "modelCalls": 0,
+          "costUsd": 0,
+          "note": "no model calls"
+        },
+        {
+          "layer": 6,
+          "name": "LLM orchestration",
+          "modelCalls": 8,
+          "costUsd": 0.37158,
+          "note": "first answers"
+        },
+        {
+          "layer": 7,
+          "name": "Guardrails after the model",
+          "modelCalls": 0,
+          "costUsd": 0,
+          "note": "no model calls"
+        },
+        {
+          "layer": 8,
+          "name": "Transformation engine",
+          "modelCalls": 0,
+          "costUsd": 0,
+          "note": "1 unit(s) produced by rules, no model call"
+        },
+        {
+          "layer": 9,
+          "name": "Validation & feedback",
+          "modelCalls": 6,
+          "costUsd": 0.303145,
+          "note": "feedback retries"
+        },
+        {
+          "layer": 10,
+          "name": "Output",
+          "modelCalls": 0,
+          "costUsd": 0,
+          "note": "no model calls"
+        }
+      ]
+    },
+    "rag": {
+      "configured": true,
+      "modelUnits": 8,
+      "groundedByRag": 8,
+      "cachedGroundedByRag": 3,
+      "itemsByDimension": {
+        "configuration": 2,
+        "engineering": 1,
+        "framework": 5
+      }
+    },
+    "compile": {
+      "checked": true,
+      "compiles": false,
+      "files": 30,
+      "errors": 15,
+      "diagnostics": [
+        {
+          "path": "src/pages/CartPage.ts",
+          "line": 2,
+          "code": "TS2307",
+          "message": "Cannot find this module: no migrated file has that path (its unit may have failed or been skipped)."
+        },
+        {
+          "path": "src/pages/cart-page/CartPageQuestions.ts",
+          "line": 7,
+          "code": "TS2345",
+          "message": "Argument of type 'string' is not assignable to parameter of type 'AbilityType<object>'."
+        },
+        {
+          "path": "src/pages/cart-page/CartPageQuestions.ts",
+          "line": 7,
+          "code": "TS2339",
+          "message": "Property 'getPage' does not exist on type 'object'."
+        },
+        {
+          "path": "src/pages/cart-page/CartPageQuestions.ts",
+          "line": 8,
+          "code": "TS2339",
+          "message": "Property 'count' does not exist on type 'Target'."
+        },
+        {
+          "path": "src/pages/cart-page/CartPageQuestions.ts",
+          "line": 12,
+          "code": "TS2345",
+          "message": "Argument of type 'string' is not assignable to parameter of type 'AbilityType<object>'."
+        },
+        {
+          "path": "src/pages/cart-page/CartPageQuestions.ts",
+          "line": 12,
+          "code": "TS2339",
+          "message": "Property 'getPage' does not exist on type 'object'."
+        },
+        {
+          "path": "src/pages/cart-page/CartPageQuestions.ts",
+          "line": 13,
+          "code": "TS2339",
+          "message": "Property 'all' does not exist on type 'Target'."
+        },
+        {
+          "path": "src/pages/cart-page/CartPageTasks.ts",
+          "line": 7,
+          "code": "TS2345",
+          "message": "Argument of type 'string' is not assignable to parameter of type 'AbilityType<object>'."
+        },
+        {
+          "path": "src/pages/cart-page/CartPageTasks.ts",
+          "line": 7,
+          "code": "TS2339",
+          "message": "Property 'getPage' does not exist on type 'object'."
+        },
+        {
+          "path": "src/pages/cart-page/CartPageTasks.ts",
+          "line": 11,
+          "code": "TS2345",
+          "message": "Argument of type 'string' is not assignable to parameter of type 'AbilityType<object>'."
+        },
+        {
+          "path": "src/pages/cart-page/CartPageTasks.ts",
+          "line": 11,
+          "code": "TS2339",
+          "message": "Property 'getPage' does not exist on type 'object'."
+        },
+        {
+          "path": "src/pages/inventory-page/InventoryPageTargets.ts",
+          "line": 4,
+          "code": "TS2322",
+          "message": "Type '{ pageTitle: (page: Page) => any; cartLink: (page: Page) => any; cartBadge: (page: Page) => any; productNames: (page: Page) => any; productPrices: (page: Page) => any; sortDropdown: (page: Page) => any; ... 9 more ...; productNameByText: (productName: string) => (page: Page) => any; }' is not "
+        },
+        {
+          "path": "tests/CheckoutTest.spec.ts",
+          "line": 3,
+          "code": "TS2307",
+          "message": "Cannot find this module: no migrated file has that path (its unit may have failed or been skipped)."
+        },
+        {
+          "path": "tests/ProductTest.spec.ts",
+          "line": 22,
+          "code": "TS2551",
+          "message": "Property 'includesAll' does not exist on type 'string[]'. Did you mean 'includes'?"
+        },
+        {
+          "path": "tests/ProductTest.spec.ts",
+          "line": 22,
+          "code": "TS2551",
+          "message": "Property 'includesAll' does not exist on type 'string[]'. Did you mean 'includes'?"
+        }
+      ],
+      "missingModules": [
+        "src/pages/CartPage.ts: ./CheckoutPage",
+        "tests/CheckoutTest.spec.ts: ../src/pages/CheckoutPage"
+      ],
+      "untypedPackages": [
+        "@playwright/test",
+        "pg"
+      ],
+      "typedAgainstRunner": false,
+      "note": "Type-checked only: the files parse, their relative imports resolve and their types check. npm packages are not installed for the check, so calls into them are not type-checked, and no test was run."
+    },
+    "jobWarnings": [
+      {
+        "code": "SECRET_SUSPECTED",
+        "message": "Possible secret (credential-assignment); the value is not stored",
+        "path": "src/test/resources/config.properties",
+        "line": 11,
+        "rule": "credential-assignment"
+      },
+      {
+        "code": "SECRET_SUSPECTED",
+        "message": "Possible secret (credential-assignment); the value is not stored",
+        "path": "src/test/resources/config.properties",
+        "line": 14,
+        "rule": "credential-assignment"
+      },
+      {
+        "code": "DATASTORE_INFERRED",
+        "message": "A sql data store seems to be used (from profile:jdbc, src/test/resources/db/data.sql, src/test/resources/db/schema.sql); attach a backend connection to migrate its data"
+      }
+    ],
+    "warnings": [
+      {
+        "code": "OUTPUT_COMPILE_ERRORS",
+        "message": "The type check found 15 error(s) in the migrated project, 2 of them imports of files that were not delivered: see report.compile."
+      }
+    ],
+    "scaffold": {
+      "id": "playwright-ts",
+      "files": [
+        "package.json",
+        "playwright.config.ts",
+        "tsconfig.json",
+        ".env.example"
+      ],
+      "packagesAdded": [
+        "pg"
+      ],
+      "packagesUnknown": []
+    },
+    "designPattern": {
+      "requested": "screenplay",
+      "applied": "screenplay",
+      "label": "Screenplay",
+      "units": 4,
+      "passed": 4,
+      "failedStructure": 0,
+      "files": [
+        "src/screenplay/core.ts",
+        "src/screenplay/actors.ts",
+        "src/screenplay/abilities.ts",
+        "src/screenplay/tasks.ts",
+        "src/screenplay/interactions.ts",
+        "src/screenplay/questions.ts"
+      ]
+    }
+  },
+  "files": [
+    {
+      "path": ".env.example",
+      "encoding": "utf8",
+      "bytes": 127,
+      "sha256": "a9751215d63c6d643508c3dc44f6a18dad8cded8ea513233dd45f904c2821e47",
+      "origin": "scaffold",
+      "language": null,
+      "units": [],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "db/data.sql",
+      "encoding": "utf8",
+      "bytes": 799,
+      "sha256": "37e91900a0bd3f1ace962e9853fc2d4785c61ab30052a586447f71ef4d9ec851",
+      "origin": "asset",
+      "language": null,
+      "units": [],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "db/schema.sql",
+      "encoding": "utf8",
+      "bytes": 645,
+      "sha256": "9539fbefb436d0739fa67a197f48edc06cdae3bedbd6829a2917d2faee43b946",
+      "origin": "asset",
+      "language": null,
+      "units": [],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "package.json",
+      "encoding": "utf8",
+      "bytes": 363,
+      "sha256": "f20caaa497f3e55150edc12790a2a3cdbcd536fc5527a2ed3c48b8dd2647c1ed",
+      "origin": "scaffold",
+      "language": null,
+      "units": [],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "playwright.config.ts",
+      "encoding": "utf8",
+      "bytes": 547,
+      "sha256": "5279ba6eef961b78f5c8980508979bc45a1cfb68f55e7811416fcf29f78a53b0",
+      "origin": "scaffold",
+      "language": null,
+      "units": [],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "README.md",
+      "encoding": "utf8",
+      "bytes": 4278,
+      "sha256": "80ec86f46d667347b33cccf323c895ff2de21cf59943aff600df4d7fed3296c3",
+      "origin": "asset",
+      "language": null,
+      "units": [],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/base/BaseTest.ts",
+      "encoding": "utf8",
+      "bytes": 411,
+      "sha256": "a643a770072887a44726570e06168cdf84882902f716972838f806a86b43bc81",
+      "origin": "migrated",
+      "language": "typescript",
+      "units": [
+        "src/test/java/com/demo/base/BaseTest.java#BaseTest"
+      ],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/pages/base-page/BasePageQuestions.ts",
+      "encoding": "utf8",
+      "bytes": 923,
+      "sha256": "384486cba5ae92829dcb2d1542416b073e4dcb66bf33630f7aa4561a1ef8edde",
+      "origin": "migrated",
+      "language": "typescript",
+      "units": [
+        "src/test/java/com/demo/pages/BasePage.java#BasePage"
+      ],
+      "complete": true,
+      "needsReview": true
+    },
+    {
+      "path": "src/pages/base-page/BasePageTargets.ts",
+      "encoding": "utf8",
+      "bytes": 135,
+      "sha256": "a9f7e4d656725812514f837c1ad346dbacb964283033b27bb4814e673e409523",
+      "origin": "migrated",
+      "language": "typescript",
+      "units": [
+        "src/test/java/com/demo/pages/BasePage.java#BasePage"
+      ],
+      "complete": true,
+      "needsReview": true
+    },
+    {
+      "path": "src/pages/base-page/BasePageTasks.ts",
+      "encoding": "utf8",
+      "bytes": 596,
+      "sha256": "35201a549fc17823a80fce66ace15bb51247e76f28d7724e44d33d0c9464efd6",
+      "origin": "migrated",
+      "language": "typescript",
+      "units": [
+        "src/test/java/com/demo/pages/BasePage.java#BasePage"
+      ],
+      "complete": true,
+      "needsReview": true
+    },
+    {
+      "path": "src/pages/BasePage.ts",
+      "encoding": "utf8",
+      "bytes": 1421,
+      "sha256": "34822beb3bc0fd4b83e0b519c0a0c19be5c0c8233fa1acd0df28054c20cd545b",
+      "origin": "migrated",
+      "language": "typescript",
+      "units": [
+        "src/test/java/com/demo/pages/BasePage.java#BasePage"
+      ],
+      "complete": true,
+      "needsReview": true
+    },
+    {
+      "path": "src/pages/cart-page/CartPageQuestions.ts",
+      "encoding": "utf8",
+      "bytes": 827,
+      "sha256": "f10bc5a9b3fe8ead25ccc5d79d86fe17bc849ab8ed840576e72e1ecab93150e2",
+      "origin": "migrated",
+      "language": "typescript",
+      "units": [
+        "src/test/java/com/demo/pages/CartPage.java#CartPage"
+      ],
+      "complete": true,
+      "needsReview": true
+    },
+    {
+      "path": "src/pages/cart-page/CartPageTargets.ts",
+      "encoding": "utf8",
+      "bytes": 442,
+      "sha256": "51886bf9f97a6aa2120c282d7a400f75906d4596ab468e6ce59baedcf7ddf679",
+      "origin": "migrated",
+      "language": "typescript",
+      "units": [
+        "src/test/java/com/demo/pages/CartPage.java#CartPage"
+      ],
+      "complete": true,
+      "needsReview": true
+    },
+    {
+      "path": "src/pages/cart-page/CartPageTasks.ts",
+      "encoding": "utf8",
+      "bytes": 593,
+      "sha256": "94afdf34666527f673dae086e7101d7e118eb4d3644261899bc9406f966163b9",
+      "origin": "migrated",
+      "language": "typescript",
+      "units": [
+        "src/test/java/com/demo/pages/CartPage.java#CartPage"
+      ],
+      "complete": true,
+      "needsReview": true
+    },
+    {
+      "path": "src/pages/CartPage.ts",
+      "encoding": "utf8",
+      "bytes": 867,
+      "sha256": "392480a39538e577e8d94b783819cdb45b146b35205efd40b40cfbe81966f307",
+      "origin": "migrated",
+      "language": "typescript",
+      "units": [
+        "src/test/java/com/demo/pages/CartPage.java#CartPage"
+      ],
+      "complete": true,
+      "needsReview": true
+    },
+    {
+      "path": "src/pages/inventory-page/InventoryPageQuestions.ts",
+      "encoding": "utf8",
+      "bytes": 3146,
+      "sha256": "832fd02660eb0a63b355f7d7c358de37a7343a1a56677f88c74bbf3e789000f2",
+      "origin": "migrated",
+      "language": "typescript",
+      "units": [
+        "src/test/java/com/demo/pages/InventoryPage.java#InventoryPage"
+      ],
+      "complete": true,
+      "needsReview": true
+    },
+    {
+      "path": "src/pages/inventory-page/InventoryPageTargets.ts",
+      "encoding": "utf8",
+      "bytes": 2102,
+      "sha256": "6e1ab6ac3ddbea625de91ce48219f79f90796cc054aa20db5a627787d28affb3",
+      "origin": "migrated",
+      "language": "typescript",
+      "units": [
+        "src/test/java/com/demo/pages/InventoryPage.java#InventoryPage"
+      ],
+      "complete": true,
+      "needsReview": true
+    },
+    {
+      "path": "src/pages/inventory-page/InventoryPageTasks.ts",
+      "encoding": "utf8",
+      "bytes": 2945,
+      "sha256": "d294d1f461f41c7a89da65e947e2a13d5c1e526d2fb6e088c0306b0e6901ebeb",
+      "origin": "migrated",
+      "language": "typescript",
+      "units": [
+        "src/test/java/com/demo/pages/InventoryPage.java#InventoryPage"
+      ],
+      "complete": true,
+      "needsReview": true
+    },
+    {
+      "path": "src/pages/InventoryPage.ts",
+      "encoding": "utf8",
+      "bytes": 3226,
+      "sha256": "e1173e1714c93ff0387a87a25450cfe0fca0af8503fe83f4b1b2be76bfece318",
+      "origin": "migrated",
+      "language": "typescript",
+      "units": [
+        "src/test/java/com/demo/pages/InventoryPage.java#InventoryPage"
+      ],
+      "complete": true,
+      "needsReview": true
+    },
+    {
+      "path": "src/pages/login-page/LoginPageQuestions.ts",
+      "encoding": "utf8",
+      "bytes": 860,
+      "sha256": "c8ecc592b24a11188713270c9bbfd376a07770d78d80994f5b80159a4e49a264",
+      "origin": "migrated",
+      "language": "typescript",
+      "units": [
+        "src/test/java/com/demo/pages/LoginPage.java#LoginPage"
+      ],
+      "complete": true,
+      "needsReview": true
+    },
+    {
+      "path": "src/pages/login-page/LoginPageTargets.ts",
+      "encoding": "utf8",
+      "bytes": 493,
+      "sha256": "ef4b75d83f42a3de44e3e95410026286e4e31944f40a11095c8487b6b2ae4d3a",
+      "origin": "migrated",
+      "language": "typescript",
+      "units": [
+        "src/test/java/com/demo/pages/LoginPage.java#LoginPage"
+      ],
+      "complete": true,
+      "needsReview": true
+    },
+    {
+      "path": "src/pages/login-page/LoginPageTasks.ts",
+      "encoding": "utf8",
+      "bytes": 1399,
+      "sha256": "c1df384043e07a81bca75e2745185557464970d38857037b9c901a46e0e9f600",
+      "origin": "migrated",
+      "language": "typescript",
+      "units": [
+        "src/test/java/com/demo/pages/LoginPage.java#LoginPage"
+      ],
+      "complete": true,
+      "needsReview": true
+    },
+    {
+      "path": "src/pages/LoginPage.ts",
+      "encoding": "utf8",
+      "bytes": 1230,
+      "sha256": "d62a6401eed92a865029e4972dd96feb98304dc92da1b269113e02c6e043f2c0",
+      "origin": "migrated",
+      "language": "typescript",
+      "units": [
+        "src/test/java/com/demo/pages/LoginPage.java#LoginPage"
+      ],
+      "complete": true,
+      "needsReview": true
+    },
+    {
+      "path": "src/screenplay/abilities.ts",
+      "encoding": "utf8",
+      "bytes": 916,
+      "sha256": "4d26679700354d92118b5ddee465bb349e7c443ce204f141a3339ee1ba04d00b",
+      "origin": "scaffold",
+      "language": "typescript",
+      "units": [],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/screenplay/actors.ts",
+      "encoding": "utf8",
+      "bytes": 1767,
+      "sha256": "e26774684f78622eced7140ae9f7c2a5852cc8a710716fba84e70eafa72cc451",
+      "origin": "scaffold",
+      "language": "typescript",
+      "units": [],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/screenplay/core.ts",
+      "encoding": "utf8",
+      "bytes": 1058,
+      "sha256": "c7cb0a2ec561f2b91b7693acd90a9d0aba84b5005d1775ff5e2319a653127a8d",
+      "origin": "scaffold",
+      "language": "typescript",
+      "units": [],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/screenplay/interactions.ts",
+      "encoding": "utf8",
+      "bytes": 930,
+      "sha256": "d8835aac36abf8e8298579201b7d79cd93aa36741118a7cc3fc6765206ba15a8",
+      "origin": "scaffold",
+      "language": "typescript",
+      "units": [],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/screenplay/questions.ts",
+      "encoding": "utf8",
+      "bytes": 948,
+      "sha256": "4876b0877b336f400426caaba985d3f972b93ebb93d81de1e64e7314847357d1",
+      "origin": "scaffold",
+      "language": "typescript",
+      "units": [],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/screenplay/tasks.ts",
+      "encoding": "utf8",
+      "bytes": 512,
+      "sha256": "22a35935e10d76a1b554779275efa4acfb82a3575bbe21f194fb8c73813bf54d",
+      "origin": "scaffold",
+      "language": "typescript",
+      "units": [],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/utils/ConfigReader.ts",
+      "encoding": "utf8",
+      "bytes": 392,
+      "sha256": "7dbd8ca0d3719b071311ab4a413c3f8bd0ba5fb46b85b3717e72ce9f99d5e3bf",
+      "origin": "migrated",
+      "language": "typescript",
+      "units": [
+        "src/test/java/com/demo/utils/ConfigReader.java#ConfigReader"
+      ],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/utils/DBUtil.ts",
+      "encoding": "utf8",
+      "bytes": 4426,
+      "sha256": "e38534f8be02bbb81e079cb969499a647d7564141465f2858ba96eed8c27a41c",
+      "origin": "migrated",
+      "language": "typescript",
+      "units": [
+        "src/test/java/com/demo/utils/DBUtil.java#DBUtil"
+      ],
+      "complete": true,
+      "needsReview": true
+    },
+    {
+      "path": "src/utils/WaitUtils.ts",
+      "encoding": "utf8",
+      "bytes": 1063,
+      "sha256": "7f9550e9602cec771aecacb1c276f95b7e32e3e7fc4efe14d3807aeb71326a6c",
+      "origin": "migrated",
+      "language": "typescript",
+      "units": [
+        "src/test/java/com/demo/utils/WaitUtils.java#WaitUtils"
+      ],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "tests/CheckoutTest.spec.ts",
+      "encoding": "utf8",
+      "bytes": 2279,
+      "sha256": "2894df8c0f3d03c880165a3a2e2478b378f90b1f84faa01a4fdadec8e03cf23f",
+      "origin": "migrated",
+      "language": "typescript",
+      "units": [
+        "src/test/java/com/demo/tests/CheckoutTest.java#CheckoutTest"
+      ],
+      "complete": true,
+      "needsReview": true
+    },
+    {
+      "path": "tests/LoginTest.spec.ts",
+      "encoding": "utf8",
+      "bytes": 2169,
+      "sha256": "5731e235be6f3b404138975e7ee76e4d86791ff630633906e17676ec629632a0",
+      "origin": "migrated",
+      "language": "typescript",
+      "units": [
+        "src/test/java/com/demo/tests/LoginTest.java#LoginTest"
+      ],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "tests/ProductTest.spec.ts",
+      "encoding": "utf8",
+      "bytes": 2411,
+      "sha256": "5e556837af99a1c5d99d65c277daa2f3cb1a82d84d0a046a644aa706f413fb64",
+      "origin": "migrated",
+      "language": "typescript",
+      "units": [
+        "src/test/java/com/demo/tests/ProductTest.java#ProductTest"
+      ],
+      "complete": true,
+      "needsReview": true
+    },
+    {
+      "path": "tsconfig.json",
+      "encoding": "utf8",
+      "bytes": 316,
+      "sha256": "ef74f461e32ad75ef5704d3a3ac73ae3fab6eef146a17e8a00d20ff07c0eab46",
+      "origin": "scaffold",
+      "language": null,
+      "units": [],
+      "complete": true,
+      "needsReview": false
+    }
+  ]
+}

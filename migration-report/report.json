@@ -1,0 +1,1076 @@
+{
+  "outputId": "6eb51bbe-4897-47a4-bfb1-090f6c70b7f2",
+  "jobId": "d5e0671b-df9c-46fc-ad5c-285395584fd8",
+  "generatedAt": "2026-11-23T09:51:37.787Z",
+  "pairId": "playwright->selenium-java",
+  "target": {
+    "id": "selenium-java"
+  },
+  "transformerVersion": "0.1.0+76e527ad0e68+pom",
+  "units": [
+    {
+      "chunkId": "auth-login.ts#auth-login.ts",
+      "sourcePath": "auth-login.ts",
+      "unitName": "auth-login.ts",
+      "targetPath": "src/test/java/framework/AuthLogin.java",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "manual",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "grounding": {
+        "references": 0,
+        "rag": 0,
+        "bySource": {}
+      },
+      "writeThrough": "skipped",
+      "human": {
+        "at": "2026-11-19T07:44:36.730Z",
+        "by": "d5b3d3f7-dc8b-4fab-ae8b-ff5d60370f20",
+        "kind": "submitted"
+      }
+    },
+    {
+      "chunkId": "cucumber.js#cucumber.js",
+      "sourcePath": "cucumber.js",
+      "unitName": "cucumber.js",
+      "targetPath": "src/test/java/framework/CucumberRunnerTest.java",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "llm",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "confidence": 0.99,
+      "grounding": {
+        "references": 2,
+        "rag": 0,
+        "bySource": {
+          "corpus": 2
+        }
+      },
+      "writeThrough": "skipped"
+    },
+    {
+      "chunkId": "features/step-definitions/lead.steps.ts#lead.steps.ts",
+      "sourcePath": "features/step-definitions/lead.steps.ts",
+      "unitName": "lead.steps.ts",
+      "targetPath": "src/test/java/features/stepdefinitions/LeadSteps.java",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "llm",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "confidence": 0.98,
+      "grounding": {
+        "references": 2,
+        "rag": 0,
+        "bySource": {
+          "corpus": 2
+        }
+      },
+      "writeThrough": "skipped"
+    },
+    {
+      "chunkId": "features/support/world.ts#CustomWorld",
+      "sourcePath": "features/support/world.ts",
+      "unitName": "CustomWorld",
+      "targetPath": "src/test/java/features/support/CustomWorld.java",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "llm",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "confidence": 0.99,
+      "grounding": {
+        "references": 2,
+        "rag": 0,
+        "bySource": {
+          "corpus": 2
+        }
+      },
+      "writeThrough": "skipped"
+    },
+    {
+      "chunkId": "features/support/world.ts#world.ts",
+      "sourcePath": "features/support/world.ts",
+      "unitName": "world.ts",
+      "targetPath": "src/test/java/features/support/World.java",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "llm",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "confidence": 0.88,
+      "grounding": {
+        "references": 2,
+        "rag": 0,
+        "bySource": {
+          "corpus": 2
+        }
+      },
+      "writeThrough": "skipped"
+    },
+    {
+      "chunkId": "playwright.config.ts#playwright.config.ts",
+      "sourcePath": "playwright.config.ts",
+      "unitName": "playwright.config.ts",
+      "targetPath": "src/test/java/framework/TestConfig.java",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "llm",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "confidence": 0.95,
+      "grounding": {
+        "references": 2,
+        "rag": 0,
+        "bySource": {
+          "corpus": 2
+        }
+      },
+      "writeThrough": "skipped"
+    },
+    {
+      "chunkId": "src/actors/Actor.ts#Actor",
+      "sourcePath": "src/actors/Actor.ts",
+      "unitName": "Actor",
+      "targetPath": "src/test/java/actors/Actor.java",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "llm",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "confidence": 0.97,
+      "grounding": {
+        "references": 2,
+        "rag": 0,
+        "bySource": {
+          "corpus": 2
+        }
+      },
+      "writeThrough": "skipped"
+    },
+    {
+      "chunkId": "src/fixtures/salesforce.fixture.ts#SalesforceFixtures",
+      "sourcePath": "src/fixtures/salesforce.fixture.ts",
+      "unitName": "SalesforceFixtures",
+      "targetPath": "src/test/java/fixtures/SalesforceFixture.java",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "manual",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "grounding": {
+        "references": 0,
+        "rag": 0,
+        "bySource": {}
+      },
+      "writeThrough": "skipped",
+      "human": {
+        "at": "2026-11-19T07:44:38.648Z",
+        "by": "d5b3d3f7-dc8b-4fab-ae8b-ff5d60370f20",
+        "kind": "submitted"
+      }
+    },
+    {
+      "chunkId": "src/fixtures/salesforce.fixture.ts#salesforce.fixture.ts",
+      "sourcePath": "src/fixtures/salesforce.fixture.ts",
+      "unitName": "salesforce.fixture.ts",
+      "targetPath": "src/test/java/fixtures/SalesforceFixture.java",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "manual",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "grounding": {
+        "references": 0,
+        "rag": 0,
+        "bySource": {}
+      },
+      "writeThrough": "skipped",
+      "human": {
+        "at": "2026-11-19T09:13:44.669Z",
+        "by": "d5b3d3f7-dc8b-4fab-ae8b-ff5d60370f20",
+        "kind": "submitted"
+      }
+    },
+    {
+      "chunkId": "src/pages/LeadPage.ts#LeadPage",
+      "sourcePath": "src/pages/LeadPage.ts",
+      "unitName": "LeadPage",
+      "targetPath": "src/test/java/pages/LeadPage.java",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "manual",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "grounding": {
+        "references": 0,
+        "rag": 0,
+        "bySource": {}
+      },
+      "writeThrough": "skipped",
+      "human": {
+        "at": "2026-11-19T09:13:43.680Z",
+        "by": "d5b3d3f7-dc8b-4fab-ae8b-ff5d60370f20",
+        "kind": "submitted"
+      }
+    },
+    {
+      "chunkId": "src/pages/LoginPage.ts#LoginPage",
+      "sourcePath": "src/pages/LoginPage.ts",
+      "unitName": "LoginPage",
+      "targetPath": "src/test/java/pages/LoginPage.java",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "llm",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "confidence": 0.73,
+      "grounding": {
+        "references": 2,
+        "rag": 0,
+        "bySource": {
+          "corpus": 2
+        }
+      },
+      "writeThrough": "skipped"
+    },
+    {
+      "chunkId": "src/pages/OpportunityPage.ts#OpportunityPage",
+      "sourcePath": "src/pages/OpportunityPage.ts",
+      "unitName": "OpportunityPage",
+      "targetPath": "src/test/java/pages/OpportunityPage.java",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "llm",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "confidence": 0.62,
+      "grounding": {
+        "references": 2,
+        "rag": 0,
+        "bySource": {
+          "corpus": 2
+        }
+      },
+      "writeThrough": "skipped"
+    },
+    {
+      "chunkId": "src/tasks/ConvertLead.ts#ConvertLead",
+      "sourcePath": "src/tasks/ConvertLead.ts",
+      "unitName": "ConvertLead",
+      "targetPath": "src/test/java/tasks/ConvertLead.java",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "llm",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "confidence": 0.99,
+      "grounding": {
+        "references": 2,
+        "rag": 0,
+        "bySource": {
+          "corpus": 2
+        }
+      },
+      "writeThrough": "skipped"
+    },
+    {
+      "chunkId": "src/tasks/CreateEmptyLead.ts#CreateEmptyLead",
+      "sourcePath": "src/tasks/CreateEmptyLead.ts",
+      "unitName": "CreateEmptyLead",
+      "targetPath": "src/test/java/tasks/CreateEmptyLead.java",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "llm",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "confidence": 0.98,
+      "grounding": {
+        "references": 2,
+        "rag": 0,
+        "bySource": {
+          "corpus": 2
+        }
+      },
+      "writeThrough": "skipped"
+    },
+    {
+      "chunkId": "src/tasks/CreateLead.ts#CreateLead",
+      "sourcePath": "src/tasks/CreateLead.ts",
+      "unitName": "CreateLead",
+      "targetPath": "src/test/java/tasks/CreateLead.java",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "llm",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "confidence": 0.98,
+      "grounding": {
+        "references": 2,
+        "rag": 0,
+        "bySource": {
+          "corpus": 2
+        }
+      },
+      "writeThrough": "skipped"
+    },
+    {
+      "chunkId": "src/tasks/CreateOpportunity.ts#CreateOpportunity",
+      "sourcePath": "src/tasks/CreateOpportunity.ts",
+      "unitName": "CreateOpportunity",
+      "targetPath": "src/test/java/tasks/CreateOpportunity.java",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "llm",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "confidence": 0.99,
+      "grounding": {
+        "references": 2,
+        "rag": 0,
+        "bySource": {
+          "corpus": 2
+        }
+      },
+      "writeThrough": "skipped"
+    },
+    {
+      "chunkId": "src/tasks/Login.ts#Login",
+      "sourcePath": "src/tasks/Login.ts",
+      "unitName": "Login",
+      "targetPath": "src/test/java/tasks/Login.java",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "llm",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "confidence": 0.97,
+      "grounding": {
+        "references": 2,
+        "rag": 0,
+        "bySource": {
+          "corpus": 2
+        }
+      },
+      "writeThrough": "skipped"
+    },
+    {
+      "chunkId": "src/tasks/UpdateLeadStatus.ts#UpdateLeadStatus",
+      "sourcePath": "src/tasks/UpdateLeadStatus.ts",
+      "unitName": "UpdateLeadStatus",
+      "targetPath": "src/test/java/tasks/UpdateLeadStatus.java",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "llm",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "confidence": 0.98,
+      "grounding": {
+        "references": 2,
+        "rag": 0,
+        "bySource": {
+          "corpus": 2
+        }
+      },
+      "writeThrough": "skipped"
+    },
+    {
+      "chunkId": "src/utils/auth-utils.ts#getAuthenticatedContext",
+      "sourcePath": "src/utils/auth-utils.ts",
+      "unitName": "getAuthenticatedContext",
+      "targetPath": "src/test/java/utils/AuthUtils.java",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "manual",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "grounding": {
+        "references": 0,
+        "rag": 0,
+        "bySource": {}
+      },
+      "writeThrough": "skipped",
+      "human": {
+        "at": "2026-11-19T07:44:38.162Z",
+        "by": "d5b3d3f7-dc8b-4fab-ae8b-ff5d60370f20",
+        "kind": "submitted"
+      }
+    },
+    {
+      "chunkId": "src/utils/auth-utils.ts#performLogin",
+      "sourcePath": "src/utils/auth-utils.ts",
+      "unitName": "performLogin",
+      "targetPath": "src/test/java/utils/AuthUtils.java",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "manual",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "grounding": {
+        "references": 0,
+        "rag": 0,
+        "bySource": {}
+      },
+      "writeThrough": "skipped",
+      "human": {
+        "at": "2026-11-19T07:44:37.665Z",
+        "by": "d5b3d3f7-dc8b-4fab-ae8b-ff5d60370f20",
+        "kind": "submitted"
+      }
+    },
+    {
+      "chunkId": "src/utils/auth-utils.ts#auth-utils.ts",
+      "sourcePath": "src/utils/auth-utils.ts",
+      "unitName": "auth-utils.ts",
+      "targetPath": "src/test/java/utils/AuthUtils.java",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "manual",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "grounding": {
+        "references": 0,
+        "rag": 0,
+        "bySource": {}
+      },
+      "writeThrough": "skipped",
+      "human": {
+        "at": "2026-11-19T07:44:37.180Z",
+        "by": "d5b3d3f7-dc8b-4fab-ae8b-ff5d60370f20",
+        "kind": "submitted"
+      }
+    },
+    {
+      "chunkId": "tests/lead.creation.spec.ts#lead.creation.spec.ts",
+      "sourcePath": "tests/lead.creation.spec.ts",
+      "unitName": "lead.creation.spec.ts",
+      "targetPath": "src/test/java/tests/LeadCreationTest.java",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "manual",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "grounding": {
+        "references": 0,
+        "rag": 0,
+        "bySource": {}
+      },
+      "writeThrough": "skipped",
+      "human": {
+        "at": "2026-11-19T09:13:44.246Z",
+        "by": "d5b3d3f7-dc8b-4fab-ae8b-ff5d60370f20",
+        "kind": "submitted"
+      }
+    },
+    {
+      "chunkId": "tests/lead.workflow.spec.ts#lead.workflow.spec.ts",
+      "sourcePath": "tests/lead.workflow.spec.ts",
+      "unitName": "lead.workflow.spec.ts",
+      "targetPath": "src/test/java/tests/LeadWorkflowTest.java",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "llm",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "confidence": 0.78,
+      "grounding": {
+        "references": 2,
+        "rag": 0,
+        "bySource": {
+          "corpus": 2
+        }
+      },
+      "writeThrough": "skipped"
+    },
+    {
+      "chunkId": "tests/opportunity.creation.spec.ts#opportunity.creation.spec.ts",
+      "sourcePath": "tests/opportunity.creation.spec.ts",
+      "unitName": "opportunity.creation.spec.ts",
+      "targetPath": "src/test/java/tests/OpportunityCreationTest.java",
+      "outcome": "migrated",
+      "status": "cached",
+      "source": "cache",
+      "method": "llm",
+      "fromCache": true,
+      "attempts": 0,
+      "problems": [],
+      "confidence": 0.92,
+      "grounding": {
+        "references": 2,
+        "rag": 0,
+        "bySource": {
+          "corpus": 2
+        }
+      },
+      "writeThrough": "skipped"
+    }
+  ],
+  "assets": [
+    {
+      "path": "data/leadData.json",
+      "action": "migrate",
+      "result": "migration_not_automated"
+    },
+    {
+      "path": "designWorkflowDiagram/highLevelDesign.md",
+      "action": "copy",
+      "result": "copied"
+    },
+    {
+      "path": "designWorkflowDiagram/screenshotCaptureflow.md",
+      "action": "copy",
+      "result": "copied"
+    },
+    {
+      "path": "package-lock.json",
+      "action": "migrate",
+      "result": "migration_not_automated"
+    },
+    {
+      "path": "package.json",
+      "action": "copy",
+      "result": "replaced_by_scaffold"
+    },
+    {
+      "path": "tsconfig.json",
+      "action": "copy",
+      "result": "replaced_by_scaffold"
+    }
+  ],
+  "report": {
+    "summary": {
+      "units": 24,
+      "byOutcome": {
+        "migrated": 24
+      },
+      "fromCache": 24,
+      "files": 21,
+      "completeFiles": 21,
+      "assetsCopied": 2,
+      "assetsRelocated": 0,
+      "byMethod": {
+        "manual": 8,
+        "llm": 16
+      },
+      "reviewQueue": 0,
+      "approved": 0,
+      "humanDecisions": 8
+    },
+    "validation": {
+      "rounds": 0,
+      "retried": 0,
+      "fixedByRetry": 0,
+      "written": 0,
+      "writeFailed": 0
+    },
+    "cost": {
+      "run": {
+        "modelCalls": 0,
+        "usage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "cacheReadTokens": 0,
+          "cacheWriteTokens": 0
+        },
+        "costUsd": 0
+      },
+      "budget": {
+        "allowed": true,
+        "breakerOpen": false,
+        "limitUsd": 25,
+        "spentUsd": 0,
+        "reservedUsd": 0,
+        "limitTokens": 2000000,
+        "spentTokens": 0,
+        "reservedTokens": 0,
+        "budgetWarning": false
+      },
+      "cache": {
+        "lookups": 108,
+        "hits": 105,
+        "patternHits": 0,
+        "misses": 3,
+        "writes": 0,
+        "rejectedWrites": 0,
+        "errors": 0,
+        "estTokensSaved": 25136,
+        "unavailable": false,
+        "backend": "redis"
+      },
+      "byLayer": [
+        {
+          "layer": 1,
+          "name": "Client input",
+          "modelCalls": 0,
+          "costUsd": 0,
+          "note": "no model calls"
+        },
+        {
+          "layer": 2,
+          "name": "Ingestion & static analysis",
+          "modelCalls": 0,
+          "costUsd": 0,
+          "note": "no model calls (parsers)"
+        },
+        {
+          "layer": 3,
+          "name": "Cache-first lookup",
+          "modelCalls": 0,
+          "costUsd": 0,
+          "note": "24 unit(s) answered from the cache, no model call"
+        },
+        {
+          "layer": 4,
+          "name": "Retrieval & context",
+          "modelCalls": 0,
+          "costUsd": 0,
+          "note": "no model calls (retrieval and budgeting)"
+        },
+        {
+          "layer": 5,
+          "name": "Guardrails before the model",
+          "modelCalls": 0,
+          "costUsd": 0,
+          "note": "no model calls"
+        },
+        {
+          "layer": 6,
+          "name": "LLM orchestration",
+          "modelCalls": 0,
+          "costUsd": 0,
+          "note": "first answers"
+        },
+        {
+          "layer": 7,
+          "name": "Guardrails after the model",
+          "modelCalls": 0,
+          "costUsd": 0,
+          "note": "no model calls"
+        },
+        {
+          "layer": 8,
+          "name": "Transformation engine",
+          "modelCalls": 0,
+          "costUsd": 0,
+          "note": "0 unit(s) produced by rules, no model call"
+        },
+        {
+          "layer": 9,
+          "name": "Validation & feedback",
+          "modelCalls": 0,
+          "costUsd": 0,
+          "note": "feedback retries"
+        },
+        {
+          "layer": 10,
+          "name": "Output",
+          "modelCalls": 0,
+          "costUsd": 0,
+          "note": "no model calls"
+        }
+      ]
+    },
+    "rag": {
+      "configured": true,
+      "modelUnits": 0,
+      "groundedByRag": 0,
+      "cachedGroundedByRag": 0,
+      "itemsByDimension": {}
+    },
+    "compile": {
+      "checked": false,
+      "reason": "no_scaffold",
+      "note": "No type check: the target has no project scaffold."
+    },
+    "jobWarnings": [
+      {
+        "code": "PARSE_ERROR",
+        "message": "Syntax error near line(s) 1; file not chunked",
+        "path": "features/createLead.feature"
+      }
+    ],
+    "warnings": [],
+    "scaffold": {
+      "id": "selenium-java",
+      "files": [
+        "pom.xml"
+      ],
+      "packagesAdded": [],
+      "packagesUnknown": []
+    },
+    "designPattern": {
+      "requested": "page-object-model",
+      "applied": "page-object-model",
+      "label": "Page Object Model",
+      "units": 0,
+      "passed": 0,
+      "failedStructure": 0,
+      "files": []
+    },
+    "learning": {
+      "rules": 0,
+      "autoApplyRules": 0,
+      "unitsGuided": 0,
+      "unitsAutoFixed": 0
+    }
+  },
+  "files": [
+    {
+      "path": "designWorkflowDiagram/highLevelDesign.md",
+      "encoding": "utf8",
+      "bytes": 2557,
+      "sha256": "8fdb8e0ac9a1635125b43a33cc74a8a84f7cab461f8778092a67fa2acb251890",
+      "origin": "asset",
+      "language": null,
+      "units": [],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "designWorkflowDiagram/screenshotCaptureflow.md",
+      "encoding": "utf8",
+      "bytes": 156,
+      "sha256": "79791adb6877ea1f8f49c45722fe62f90943b753495ce395f53277d4f442e59e",
+      "origin": "asset",
+      "language": null,
+      "units": [],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "pom.xml",
+      "encoding": "utf8",
+      "bytes": 2583,
+      "sha256": "3d964d7118bd27a44c7cd304aa4e1a6781ca812515bf77ee7207d73ddfa323bd",
+      "origin": "scaffold",
+      "language": null,
+      "units": [],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/test/java/actors/Actor.java",
+      "encoding": "utf8",
+      "bytes": 449,
+      "sha256": "686e296cc56dddf74ad15592160a191d8c45dd6cd3b6e254eaea911dbc1620c6",
+      "origin": "migrated",
+      "language": "java",
+      "units": [
+        "src/actors/Actor.ts#Actor"
+      ],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/test/java/features/stepdefinitions/LeadSteps.java",
+      "encoding": "utf8",
+      "bytes": 1581,
+      "sha256": "8277d4c304aec4d69f7285b3ff62211dcfd068aee1807c4789a582a423817323",
+      "origin": "migrated",
+      "language": "java",
+      "units": [
+        "features/step-definitions/lead.steps.ts#lead.steps.ts"
+      ],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/test/java/features/support/CustomWorld.java",
+      "encoding": "utf8",
+      "bytes": 273,
+      "sha256": "e1af30906b31c7aa430bbe9a1b040c2be8a39e07647953e4ee2f4d26da1f4d7e",
+      "origin": "migrated",
+      "language": "java",
+      "units": [
+        "features/support/world.ts#CustomWorld"
+      ],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/test/java/features/support/World.java",
+      "encoding": "utf8",
+      "bytes": 720,
+      "sha256": "b54b7b85ca47378ea0b464887005149ff6ad407280e9a6eda673cb44c80c7ba6",
+      "origin": "migrated",
+      "language": "java",
+      "units": [
+        "features/support/world.ts#world.ts"
+      ],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/test/java/fixtures/SalesforceFixture.java",
+      "encoding": "utf8",
+      "bytes": 3603,
+      "sha256": "d34db535c0154ceb82627a63df42dc07044c56eb091828c0540aaf3af76c1f84",
+      "origin": "migrated",
+      "language": "java",
+      "units": [
+        "src/fixtures/salesforce.fixture.ts#SalesforceFixtures",
+        "src/fixtures/salesforce.fixture.ts#salesforce.fixture.ts"
+      ],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/test/java/framework/AuthLogin.java",
+      "encoding": "utf8",
+      "bytes": 2370,
+      "sha256": "19a718daba9475f95bb4e46a8b98a4fb2ba9a411f3806e31e2129f187a70208e",
+      "origin": "migrated",
+      "language": "java",
+      "units": [
+        "auth-login.ts#auth-login.ts"
+      ],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/test/java/framework/CucumberRunnerTest.java",
+      "encoding": "utf8",
+      "bytes": 378,
+      "sha256": "62a5898f2e398dea5a8a24751edd7163bcf052fb633ca2c05266bf0b1d3d5d1d",
+      "origin": "migrated",
+      "language": "java",
+      "units": [
+        "cucumber.js#cucumber.js"
+      ],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/test/java/framework/TestConfig.java",
+      "encoding": "utf8",
+      "bytes": 547,
+      "sha256": "4727e4b5c61eddab7e6f9599cde80d4368f2200eb944d90050f01561727cd431",
+      "origin": "migrated",
+      "language": "java",
+      "units": [
+        "playwright.config.ts#playwright.config.ts"
+      ],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/test/java/pages/LeadPage.java",
+      "encoding": "utf8",
+      "bytes": 6928,
+      "sha256": "03183e9432e262df0eecec8c3eccc268f8e0849b4e45b95a20941b8a43194d3c",
+      "origin": "migrated",
+      "language": "java",
+      "units": [
+        "src/pages/LeadPage.ts#LeadPage"
+      ],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/test/java/pages/LoginPage.java",
+      "encoding": "utf8",
+      "bytes": 767,
+      "sha256": "9222684186cbe3384beb46986ca6730558a63a80c9b88cd2a64d0e564ab6bab3",
+      "origin": "migrated",
+      "language": "java",
+      "units": [
+        "src/pages/LoginPage.ts#LoginPage"
+      ],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/test/java/pages/OpportunityPage.java",
+      "encoding": "utf8",
+      "bytes": 7694,
+      "sha256": "182191cfa2654e53f5a0b6a5e62d977dea35920fda4741feb325b0d9888a4b65",
+      "origin": "migrated",
+      "language": "java",
+      "units": [
+        "src/pages/OpportunityPage.ts#OpportunityPage"
+      ],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/test/java/tasks/ConvertLead.java",
+      "encoding": "utf8",
+      "bytes": 438,
+      "sha256": "b7be1cd5b920ee5ab690ec1d5996c6e018bf2bbb69613c36cce6e05ed761d1b3",
+      "origin": "migrated",
+      "language": "java",
+      "units": [
+        "src/tasks/ConvertLead.ts#ConvertLead"
+      ],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/test/java/tasks/CreateEmptyLead.java",
+      "encoding": "utf8",
+      "bytes": 404,
+      "sha256": "361f32c9c99225b22eb1c8cafa0c9373e618ff0fbee57d6f1e316f2b3391dbc5",
+      "origin": "migrated",
+      "language": "java",
+      "units": [
+        "src/tasks/CreateEmptyLead.ts#CreateEmptyLead"
+      ],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/test/java/tasks/CreateLead.java",
+      "encoding": "utf8",
+      "bytes": 539,
+      "sha256": "bd3da1e444165b6b9691920856ca6ffc23f38c40a81d4a1ee2ad55ccdf4596a3",
+      "origin": "migrated",
+      "language": "java",
+      "units": [
+        "src/tasks/CreateLead.ts#CreateLead"
+      ],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/test/java/tasks/CreateOpportunity.java",
+      "encoding": "utf8",
+      "bytes": 533,
+      "sha256": "6b8b4e3cc43453dad1784d024c9ec7c70320d720dded99745531c9888482d791",
+      "origin": "migrated",
+      "language": "java",
+      "units": [
+        "src/tasks/CreateOpportunity.ts#CreateOpportunity"
+      ],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/test/java/tasks/Login.java",
+      "encoding": "utf8",
+      "bytes": 416,
+      "sha256": "3557f164a6dad99607c48cec8b709d9d18670cbd653c96d0b65cff440bc101b3",
+      "origin": "migrated",
+      "language": "java",
+      "units": [
+        "src/tasks/Login.ts#Login"
+      ],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/test/java/tasks/UpdateLeadStatus.java",
+      "encoding": "utf8",
+      "bytes": 405,
+      "sha256": "f5bf8ad4280702104a7deba250c0dbbf1aa0948f4724ae7441e2fac25a96b3a7",
+      "origin": "migrated",
+      "language": "java",
+      "units": [
+        "src/tasks/UpdateLeadStatus.ts#UpdateLeadStatus"
+      ],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/test/java/tests/LeadCreationTest.java",
+      "encoding": "utf8",
+      "bytes": 3305,
+      "sha256": "d5aaec2f0a2ede4370ac0620b37e8a7cc5b554cb75b3a4ffef60e496ef6e25e7",
+      "origin": "migrated",
+      "language": "java",
+      "units": [
+        "tests/lead.creation.spec.ts#lead.creation.spec.ts"
+      ],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/test/java/tests/LeadWorkflowTest.java",
+      "encoding": "utf8",
+      "bytes": 2698,
+      "sha256": "e7175003242b0efb8a87ed2aace35f19e40cc7451e4e39f4f9574fa9591fd891",
+      "origin": "migrated",
+      "language": "java",
+      "units": [
+        "tests/lead.workflow.spec.ts#lead.workflow.spec.ts"
+      ],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/test/java/tests/OpportunityCreationTest.java",
+      "encoding": "utf8",
+      "bytes": 839,
+      "sha256": "e89c9f7e73dae8d0a6d5066835a96cf5c89b6b68f11721d852cc4f15975caaed",
+      "origin": "migrated",
+      "language": "java",
+      "units": [
+        "tests/opportunity.creation.spec.ts#opportunity.creation.spec.ts"
+      ],
+      "complete": true,
+      "needsReview": false
+    },
+    {
+      "path": "src/test/java/utils/AuthUtils.java",
+      "encoding": "utf8",
+      "bytes": 7124,
+      "sha256": "99609128d5afe0d8ab3e900394ca176cb7c6cc31729a40fb37bf2b3e87f91d50",
+      "origin": "migrated",
+      "language": "java",
+      "units": [
+        "src/utils/auth-utils.ts#getAuthenticatedContext",
+        "src/utils/auth-utils.ts#performLogin",
+        "src/utils/auth-utils.ts#auth-utils.ts"
+      ],
+      "complete": true,
+      "needsReview": false
+    }
+  ]
+}
